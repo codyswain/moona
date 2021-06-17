@@ -10,13 +10,13 @@ import { PricingFeature } from '../pricing/PricingFeature';
 
 const Pricing = () => (
   <Background color="bg-gray-200">
-    <Section title="Flexible Plans" subtitle="Pricing">
+    <Section title="Subscribe to the next generation of digital content" subtitle="A coin of value">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
         <PricingCard
           name="FREE"
           price="$0"
           periodicity="mo"
-          description="Best for individuals"
+          description="Enthusiast"
           button={(
             <Link href="/">
               <a>
@@ -25,14 +25,14 @@ const Pricing = () => (
             </Link>
           )}
         >
-          <PricingFeature text="1 Team Members" />
-          <PricingFeature text="1 Website" />
-          <PricingFeature text="1 GB Storage" />
-          <PricingFeature text="1 TB Transfer" />
-          <PricingFeature text="Email Support" />
+          <PricingFeature text="Join the future of memes" />
+          <PricingFeature text="Unlimited Memes" />
+          <PricingFeature text="Moona Digest subscription" />
+          <PricingFeature text="p2 Tier Voting on mMemes" />
+          
         </PricingCard>
         <PricingCard
-          name="PREMIUM"
+          name="mPro"
           price="$19"
           periodicity="mo"
           description="Best for small teams"
@@ -44,17 +44,17 @@ const Pricing = () => (
             </Link>
           )}
         >
-          <PricingFeature text="5 Team Members" />
-          <PricingFeature text="5 Website" />
-          <PricingFeature text="5 GB Storage" />
-          <PricingFeature text="5 TB Transfer" />
-          <PricingFeature text="Email Support" />
+          <PricingFeature text="Join the future of memes" />
+          <PricingFeature text="Unlimited Memes" />
+          <PricingFeature text="Moona Digest subscription" />
+          <PricingFeature text="p2 Tier Voting on mMemes" />
+          
         </PricingCard>
         <PricingCard
-          name="ENTERPRISE"
+          name="mMaster"
           price="$99"
           periodicity="mo"
-          description="Best for industry leader"
+          description="Hardcore memer"
           button={(
             <Link href="/">
               <a>
@@ -63,11 +63,11 @@ const Pricing = () => (
             </Link>
           )}
         >
-          <PricingFeature text="30 Team Members" />
-          <PricingFeature text="30 Website" />
-          <PricingFeature text="30 GB Storage" />
-          <PricingFeature text="30 TB Transfer" />
-          <PricingFeature text="Email Support" />
+          <PricingFeature text="Join the future of memes" />
+          <PricingFeature text="Unlimited Memes" />
+          <PricingFeature text="Moona Digest subscription" />
+          <PricingFeature text="p2 Tier Voting on mMemes" />
+          
         </PricingCard>
       </div>
     </Section>

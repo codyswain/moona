@@ -29,7 +29,7 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
   return (
     <div className={verticalFeatureClass}>
       <div className="w-full sm:w-1/2 sm:px-6">
-        <div className="text-primary-500 text-sm font-bold">Awesome feature</div>
+        <div className="text-primary-500 text-sm font-bold">Participate</div>
         <h3 className="mt-1 text-3xl text-gray-900 font-semibold">{props.title}</h3>
         <div className="mt-3 text-xl leading-9">{props.children}</div>
         {props.action && <div className="mt-4">{props.action}</div>}

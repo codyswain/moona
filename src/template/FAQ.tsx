@@ -9,51 +9,22 @@ const FAQ = () => (
   <Section
     title="You have Questions?"
     subtitle="FAQ"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    description="We got answers."
   >
     <div className="flex flex-col">
-      <QuestionAnswer question="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at est eleifend?">
+      <QuestionAnswer question="What powers Moona?">
         <p>
-          Etiam malesuada massa id sapien eleifend congue. Curabitur tempus urna molestie lacus
-          dictum faucibus.
-        </p>
-        <p>
-          Fusce sed nunc ultrices, sollicitudin dui eu, laoreet lacus. Nullam mollis nisi ac turpis
-          maximus, posuere viverra lectus tristique. Checkout
-          {' '}
-          <Link href="/">
-            <a>this example</a>
-          </Link>
-          .
+          Moona is powered by the Terra blockchain running on Tendermint consensus, which relies on a set of validators to secure the network. Validators run a full nodes and participate in consensus by broadcasting votes which contain cryptographic signatures signed by their private key. Validators commit new blocks in the blockchain and receive revenue in exchange for their work. They also participate in on-procotol treasury governance by voting on governance proposals. A validator's voting influence is weighted according to their total stake.
         </p>
       </QuestionAnswer>
-      <QuestionAnswer question="Lorem ipsum dolor sit amet, consectetur adipiscing elit?">
+      <QuestionAnswer question="How can I buy Moona?">
         <p>
-          Etiam malesuada massa id sapien eleifend congue. Curabitur tempus urna molestie lacus
-          dictum faucibus.
+        You can buy MUNA by participating in the MoonaList Auction. For more information, visit this page frequently.
         </p>
       </QuestionAnswer>
-      <QuestionAnswer question="Lorem ipsum dolor sit amet, consectetur adipiscing elit?">
+      <QuestionAnswer question="Who can partipate in this auction?">
         <p>
-          Etiam malesuada massa id sapien eleifend congue. Curabitur tempus urna molestie lacus
-          dictum faucibus.
-        </p>
-      </QuestionAnswer>
-      <QuestionAnswer question="Lorem ipsum dolor sit amet, consectetur adipiscing elit?">
-        <p>
-          Etiam malesuada massa id sapien eleifend congue. Curabitur tempus urna molestie lacus
-          dictum faucibus. Read our
-          {' '}
-          <Link href="/">
-            <a>blog post</a>
-          </Link>
-          .
-        </p>
-      </QuestionAnswer>
-      <QuestionAnswer question="Lorem ipsum dolor sit amet, consectetur adipiscing elit?">
-        <p>
-          Etiam malesuada massa id sapien eleifend congue. Curabitur tempus urna molestie lacus
-          dictum faucibus.
+        Anyone who does not reside in an included jurisdiction and successfully or unsuccessfully passes Know Your Customer (KYC) and Anti-Money Laundering (AML) checks may participate in the auctions. Please note that participation in auctions is possible in the following excluded jurisdictions: China, USA, Canada, North Korea, Cuba, Syria, Iran, Sudan, Belarus, Myanmar, Côte D’Ivoire, The Democratic Republic of the Congo, Iraq, Liberia, Zimbabwe, and jurisdictions in which the auctions and/or trading of the tokens themselves are prohibited, restricted or unauthorized in any form or manner whether in full or in part under the laws, regulatory requirements or rules in such jurisdiction.
         </p>
       </QuestionAnswer>
     </div>

@@ -25,7 +25,7 @@ const Hero = () => (
         </li>
         <li>
           <Link href="/">
-            <a>Sign in</a>
+            <a>Participate</a>
           </Link>
         </li>
         <li>

@@ -5,13 +5,13 @@ import { Section } from '../layout/Section';
 
 const Features = () => (
   <Section
-    title="Your title here"
-    subtitle="Features"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="What is Moona"
+    subtitle="Learn"
+    description="Moona is a currency for changemakers, innovators, and visionaries, using the tools and technologies of the future, to bring about positive global change."
   >
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-16">
       <FeatureElement
-        title="Your title"
+        title="Digital"
         icon={(
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -25,10 +25,10 @@ const Features = () => (
           </svg>
         )}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Moona is an interface for the next computing paradigm. 
       </FeatureElement>
       <FeatureElement
-        title="Your title"
+        title="Decentralized"
         icon={(
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -43,10 +43,10 @@ const Features = () => (
           </svg>
         )}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Moona is run across the internet, on the the Terra blockchain.
       </FeatureElement>
       <FeatureElement
-        title="Your title"
+        title="Tokenized"
         icon={(
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -61,10 +61,10 @@ const Features = () => (
           </svg>
         )}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Moona is inherently value-bearing. 
       </FeatureElement>
       <FeatureElement
-        title="Your title"
+        title="Programmable"
         icon={(
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -78,10 +78,10 @@ const Features = () => (
           </svg>
         )}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Moona is programmable money. 
       </FeatureElement>
       <FeatureElement
-        title="Your title"
+        title="Secure"
         icon={(
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -96,10 +96,10 @@ const Features = () => (
           </svg>
         )}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Delegated PoS blockchain with 100 trusted validators. 
       </FeatureElement>
       <FeatureElement
-        title="Your title"
+        title="Eco-friendly"
         icon={(
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +113,7 @@ const Features = () => (
           </svg>
         )}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        PoS enables Moona to be 100-10000x more efficient than Bitcoin.
       </FeatureElement>
     </div>
   </Section>

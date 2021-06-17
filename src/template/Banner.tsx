@@ -9,8 +9,8 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section yPadding="pb-16">
     <CTABanner
-      title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-      subtitle="Start your Free Trial."
+      title="Make money. Eat ass."
+      subtitle="Buy Moona."
       button={(
         <Link href="/">
           <a>

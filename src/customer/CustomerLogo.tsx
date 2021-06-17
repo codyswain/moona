@@ -6,7 +6,7 @@ type ICustomerLogoProps = {
 };
 
 const CustomerLogo = (props: ICustomerLogoProps) => (
-  <img className="opacity-10" src={`${process.env.baseUrl}${props.src}`} alt={props.alt} />
+  <img className="opacity-10 h-10" src={`${process.env.baseUrl}${props.src}`} alt={props.alt} />
 );
 
 export { CustomerLogo };

@@ -11,7 +11,7 @@ const VerticalFeatures = () => (
   <Background color="bg-gray-200">
     <Section>
       <VerticalFeatureRow
-        title="Your title here"
+        title="Earn Moona Now"
         image={{
           src: '/assets/images/feature.svg',
           alt: 'First feature alt text',
@@ -24,22 +24,20 @@ const VerticalFeatures = () => (
           </Link>
         )}
       >
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum.</p>
-        <p>Nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.</p>
+        <p>To earn Moona, submit memes, wait for the community to vote on them, and earn Moona. </p>
       </VerticalFeatureRow>
       <VerticalFeatureRow
-        title="Your title here"
+        title="Vote on memes"
         image={{
           src: '/assets/images/feature2.svg',
           alt: 'Second feature alt text',
         }}
         reverse
       >
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum.</p>
-        <p>Nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.</p>
+        <p>Holders of governance tokens may vote on memes, and community funds are given back to creators.</p>
       </VerticalFeatureRow>
       <VerticalFeatureRow
-        title="Your title here"
+        title="Build community"
         image={{
           src: '/assets/images/feature3.svg',
           alt: 'Third feature alt text',
@@ -52,8 +50,7 @@ const VerticalFeatures = () => (
           </Link>
         )}
       >
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum.</p>
-        <p>Nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.</p>
+        <p>With a robust incentivization program, the Moona community grows to become the future platform for meme artists and creators.</p>
       </VerticalFeatureRow>
     </Section>
   </Background>

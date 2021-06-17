@@ -11,10 +11,10 @@ const Testimonial = () => (
           src: '/assets/images/avatar.png',
           alt: 'Random name avatar alt text',
         }}
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan rhoncus orci. Suspendisse accumsan rhoncus orci."
+        text="Web trailblazer. Pop culture fanatic. Incurable bacon nerd. Certified travelaholic. Zombie lover."
         author={{
           name: 'Jennifer Ford',
-          position: 'CEO of Something',
+          position: 'CEO of Zenboingo',
         }}
       />
       <TestimonialCard
@@ -22,10 +22,10 @@ const Testimonial = () => (
           src: '/assets/images/avatar2.png',
           alt: 'Random name avatar alt text 2',
         }}
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan rhoncus orci. Suspendisse accumsan rhoncus orci."
+        text="Total alcohol specialist. Extreme beer expert. Freelance pop culture buff. Subtly charming bacon aficionado."
         author={{
           name: 'Daniel Lawson',
-          position: 'Lead developer of Something',
+          position: 'Lead developer of Bodungo',
         }}
       />
     </div>

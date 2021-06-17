@@ -10,7 +10,7 @@ const Logo = (props: ILogoProps) => {
   // const size = props.xl ? '44' : '32';
   const fontStyle = props.xl ? 'font-semibold text-3xl' : 'font-semibold text-xl';
 
-  
+
   return (
     <div className={`text-gray-900 flex items-center ${fontStyle}`}>
       <img src={'/assets/images/moona.png'} className="h-6 mr-2"></img>
@@ -31,6 +31,7 @@ const Logo = (props: ILogoProps) => {
         <rect x="15" y="4" width="6" height="16" rx="1" />
         <path d="M4 20h14" />
       </svg> */}
+
 
       {Config.site_name}
     </div>
